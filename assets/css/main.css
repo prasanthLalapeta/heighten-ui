@@ -73,41 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   font-weight: 700; }
 
-@font-face {
-  font-family: 'Gotham-Bold';
-  src: url("../fonts/Gotham-Bold.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-@font-face {
-  font-family: 'Gotham-Pure-Bold';
-  src: url("../fonts/GOTHAM-BOLD_0.OTF") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-@font-face {
-  font-family: 'Gotham-Italic';
-  src: url("../fonts/GOTHAM-BOOKITALIC_0.OTF") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-@font-face {
-  font-family: 'Gotham-Light';
-  src: url("../fonts/GOTHAM-LIGHT_0.OTF") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-@font-face {
-  font-family: 'Gotham-Medium';
-  src: url("../fonts/Gotham-Medium.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
 /* Headers */
 h1 {
   font-size: 40px;
