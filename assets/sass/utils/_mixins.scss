@@ -1,0 +1,5 @@
+/* mixin for color palette cards */
+
+@mixin color-card($color) {
+  background: $color;
+}
