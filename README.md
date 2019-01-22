@@ -19,15 +19,15 @@ copy main.css from /assets/css/ into your app folder and start using heighten-ui
 ## Components available from heighten-ui
 - [√] colors
 - [√] typography
-- [X] spacing
-- [X] grid
-- [X] buttons
-- [X] borders
-- [X] cards
-- [X] labels
-- [X] layout & spacing
-- [X] form elements
-- [X] navigations
+- [✗] spacing
+- [√] grid
+- [✗] buttons
+- [✗] borders
+- [✗] cards
+- [✗] labels
+- [✗] layout & spacing
+- [✗] form elements
+- [✗] navigations
 
 ## Built with Sass and topics used from Sass
 

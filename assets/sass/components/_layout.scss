@@ -1,0 +1,39 @@
+/* containers */
+.container-600 {
+  @include container(600px);
+}
+.container-900 {
+  @include container(900px);
+}
+.container-whole {
+  @include container(100%);
+}
+
+/* Grids */
+$gutters: (0, 5, 10, 15);
+$lengths: (whole, half, third, quarter, fifth);
+
+@each $gutter in $gutters {
+  .grid-wrapper-#{$gutter} {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: #{$gutter}px;
+    @each $length in $lengths {
+      .col-one-#{$length} {
+        @if $length == 'whole' {
+          width: 100%;
+        } @else if $length == 'half' {
+          width: 50%;
+        } @else if $length == 'third' {
+          width: 33.33333%;
+        } @else if $length == 'quarter' {
+          width: 25%;
+        } @else if $length == 'fifth' {
+          width: 20%;
+        }
+        padding-left: #{$gutter}px;
+      }
+    }
+  }
+}
