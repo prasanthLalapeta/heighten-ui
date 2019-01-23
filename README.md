@@ -17,10 +17,10 @@ cd heighten-ui
 copy main.css from /assets/css/ into your app folder and start using heighten-ui by importing in index.html file as stylesheet.
 
 ## Components available from heighten-ui
-- [√] colors
-- [√] typography
+- [√] [colors](https://heightenui.herokuapp.com/colors.html)
+- [√] [typography](https://heightenui.herokuapp.com/typography.html)
 - [✗] spacing
-- [√] grid
+- [√] [grid](https://heightenui.herokuapp.com/layout.html)
 - [✗] buttons
 - [✗] borders
 - [✗] cards
@@ -57,5 +57,10 @@ sass assets/sass/main.scss assets/css/main.css
 ## Plugins included in this projects
 
 - [√] prism
+
+## Contributors
+
+This project exists thanks to all the people who contribute.
+<a href="https://github.com/prasanthLalapeta"><img src="https://avatars1.githubusercontent.com/u/40259256?s=460&v=4?width=890" /></a>
 
 Thanks!
