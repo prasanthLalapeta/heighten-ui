@@ -1,6 +1,9 @@
 .white-clr {
   color: $white-clr;
 }
+.white-clr-txt {
+  color: $white-clr;
+}
 .dark-grey-clr-txt {
   color: $dark-grey-clr;
 }
@@ -13,6 +16,9 @@
 
 /* color palette cards */
 
+.white-clr-bg {
+  @include color-card($white-clr);
+}
 .dark-grey-clr-bg {
   @include color-card($dark-grey-clr);
 }

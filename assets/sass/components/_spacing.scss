@@ -38,4 +38,16 @@ $sides: (top, bottom, left, right, all);
       }
     }
   }
+  .pd-lr-#{$space} {
+    padding: 0px #{$space}px;
+  }
+  .pd-tb-#{$space} {
+    padding: #{$space}px 0px;
+  }
+  .mr-lr-#{$space} {
+    margin: 0px #{$space}px;
+  }
+  .mr-tb-#{$space} {
+    margin: #{$space}px 0px;
+  }
 }
