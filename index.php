@@ -1,1 +1,1 @@
-<?php include_once("typography.html"); ?>
+<?php include_once("index.html"); ?>

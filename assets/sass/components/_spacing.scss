@@ -44,10 +44,10 @@ $sides: (top, bottom, left, right, all);
   .pd-tb-#{$space} {
     padding: #{$space}px 0px;
   }
-  .mr-lr-#{$space} {
+  .m-lr-#{$space} {
     margin: 0px #{$space}px;
   }
-  .mr-tb-#{$space} {
+  .m-tb-#{$space} {
     margin: #{$space}px 0px;
   }
 }
