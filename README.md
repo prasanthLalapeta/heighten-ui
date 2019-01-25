@@ -21,7 +21,7 @@ copy main.css from /assets/css/ into your app folder and start using heighten-ui
 - [√] [typography](https://heightenui.herokuapp.com/typography.html)
 - [√] [spacing](https://heightenui.herokuapp.com/spacing.html)
 - [√] [grid](https://heightenui.herokuapp.com/layout.html)
-- [✗] buttons
+- [✗] [buttons](https://heightenui.herokuapp.com/buttons.html)
 - [√] [borders](https://heightenui.herokuapp.com/borders.html)
 - [✗] cards
 - [✗] lists
