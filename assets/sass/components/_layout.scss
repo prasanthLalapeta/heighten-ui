@@ -1,0 +1,64 @@
+/* containers */
+.container-600 {
+  @include container(600px);
+}
+.container-900 {
+  @include container(900px);
+}
+.container-1032 {
+  @include container(1032px);
+}
+.container-whole {
+  @include container(100%);
+}
+
+/* Grids */
+$gutters: (0, 5, 10, 15);   //  gutters width
+$lengths: (whole, half, third, quarter, fifth);   //  lengths for fluid row
+$fixedLengths: (half, third);   //  lengths for fixed + fluid rows
+$columnTypes: (fixed, fluid);   //  column types
+
+@each $gutter in $gutters {
+  .grid-wrapper-#{$gutter} {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: #{$gutter}px;
+    @each $length in $lengths {
+      .col-one-#{$length} {
+        @if $length == 'whole' {
+          width: 100%;
+        } @else if $length == 'half' {
+          width: 50%;
+        } @else if $length == 'third' {
+          width: 33.33333%;
+        } @else if $length == 'quarter' {
+          width: 25%;
+        } @else if $length == 'fifth' {
+          width: 20%;
+        }
+        padding-left: #{$gutter}px;
+      }
+    }
+    @each $fixedLength in $fixedLengths {
+      @each $columnType in $columnTypes {
+        .col-one-#{$fixedLength}-#{$columnType} {
+          @if $columnType == 'fixed' {
+            @if $fixedLength == 'half' {
+              width: 330px;
+            } @else if $fixedLength == 'third' {
+              width: 300px;
+            }
+          } @else if $columnType == 'fluid' {
+            @if $fixedLength == 'half' {
+              width: calc(100% - 330px);
+            } @else if $fixedLength == 'third' {
+              width: calc(100% - 600px);
+            }
+          }
+          padding-left: #{$gutter}px;
+        }
+      }
+    }
+  }
+}

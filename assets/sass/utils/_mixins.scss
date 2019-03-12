@@ -1,0 +1,12 @@
+/* mixin for color palette cards */
+
+@mixin color-card($color) {
+  background: $color;
+}
+
+/* mixin for containers */
+
+@mixin container($width) {
+  max-width: $width;
+  margin: auto;
+}

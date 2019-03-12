@@ -1,0 +1,88 @@
+/* border addition */
+
+/* border 1px solid */
+$spaceamounts: (1);
+$sides: (top, bottom, left, right, all);
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    @if $side == 'all' {
+      .border {
+        border: #{$space}px solid $border-clr;
+      }
+    } @else {
+      .border-#{$side} {
+        border-#{$side}: #{$space}px solid $border-clr;
+      }
+    }
+  }
+}
+
+/* border 2px solid */
+$spaceamounts: (2);
+$sides: (top, bottom, left, right, all);
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    @if $side == 'all' {
+      .border-medium {
+        border: #{$space}px solid $border-clr;
+      }
+    } @else {
+      .border-#{$side}-medium {
+        border-#{$side}: #{$space}px solid $border-clr;
+      }
+    }
+  }
+}
+
+/* border 1px dashed*/
+$spaceamounts: (1);
+$sides: (top, bottom, left, right, all);
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    @if $side == 'all' {
+      .border-dashed {
+        border: #{$space}px dashed $border-clr;
+      }
+    } @else {
+      .border-#{$side}-dashed {
+        border-#{$side}: #{$space}px dashed $border-clr;
+      }
+    }
+  }
+}
+
+/* border 2px dashed */
+$spaceamounts: (2);
+$sides: (top, bottom, left, right, all);
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    @if $side == 'all' {
+      .border-dashed-medium {
+        border: #{$space}px dashed $border-clr;
+      }
+    } @else {
+      .border-#{$side}-dashed-medium {
+        border-#{$side}: #{$space}px dashed $border-clr;
+      }
+    }
+  }
+}
+
+/* border removal */
+$sides: (top, bottom, left, right, all);
+
+@each $side in $sides {
+  @if $side == 'all' {
+    .border-init {
+      border: initial;
+    }
+  } @else {
+    .border-#{$side}-init {
+      border-#{$side}: initial;
+    }
+  }
+}

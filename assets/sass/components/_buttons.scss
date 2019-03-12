@@ -1,0 +1,42 @@
+.btn {
+  padding: 8px 20px;
+  border: initial;
+  background: initial;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn-primary {
+  background: $btn-primary-clr;
+  color: $white-clr;
+}
+
+.btn-secondary {
+  border: 1px solid $btn-secondary-clr;
+  color: $btn-primary-clr;
+  &.btn-formal-2, &.btn-classic-2, &.btn-playful-2 {
+    border: initial;
+    background: hsl(180, 10%, 92%);
+  }
+}
+
+.btn-tertiary {
+  color: $btn-tertiary-clr;
+  text-decoration: underline;
+  &.btn-classic, &.btn-playful {
+    text-decoration: none;
+  }
+  &.btn-playful {
+    color: $btn-primary-clr;
+  }
+}
+
+.btn-classic, .btn-classic-2 {
+  border-radius: 4px;
+}
+
+.btn-playful, .btn-playful-2 {
+  border-radius: 25px;
+}

@@ -1,0 +1,30 @@
+.white-clr {
+  color: $white-clr;
+}
+.white-clr-txt {
+  color: $white-clr;
+}
+.dark-grey-clr-txt {
+  color: $dark-grey-clr;
+}
+.grey-clr-txt {
+  color: $grey-clr;
+}
+.light-grey-clr-txt {
+  color: $light-grey-clr;
+}
+
+/* color palette cards */
+
+.white-clr-bg {
+  @include color-card($white-clr);
+}
+.dark-grey-clr-bg {
+  @include color-card($dark-grey-clr);
+}
+.grey-clr-bg {
+  @include color-card($grey-clr);
+}
+.light-grey-clr-bg {
+  @include color-card($light-grey-clr);
+}

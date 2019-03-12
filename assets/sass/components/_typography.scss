@@ -1,0 +1,130 @@
+/* Headers */
+
+h1 {
+  font-size: 40px;
+  line-height: 1;
+}
+h2 {
+  font-size: 32px;
+  line-height: 1.25;
+}
+h3 {
+  font-size: 28px;
+  line-height: 1.25;
+}
+h4 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+h5 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+h6 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header-48 {
+  font-size: 48px;
+  line-height: 1;
+}
+.header-56 {
+  font-size: 56px;
+  line-height: 1;
+}
+.header-64 {
+  font-size: 64px;
+  line-height: 1;
+}
+.header-72 {
+  font-size: 72px;
+  line-height: 1;
+}
+
+/* Content */
+
+p {
+  font-size: 24px;
+  font-weight: 500;
+  color: $grey-clr;
+  line-height: 36px;
+}
+
+.text-12 {
+  font-size: 12px;
+  line-height: 1.75;
+}
+.text-14 {
+  font-size: 14px;
+  line-height: 1.75;
+}
+.text-16 {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.text-18 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.text-20 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+.text-24 {
+  font-size: 24px;
+  line-height: 1.25;
+}
+.text-30 {
+  font-size: 30px;
+  line-height: 1;
+}
+.text-36 {
+  font-size: 36px;
+  line-height: 1;
+}
+.text-48 {
+  font-size: 48px;
+  line-height: 1;
+}
+.text-60 {
+  font-size: 60px;
+  line-height: 0.75;
+}
+.text-72 {
+  font-size: 72px;
+  line-height: 0.75;
+}
+
+/* Help Texts */
+
+.hlp-txt-10 {
+  font-size: 10px;
+}
+.hlp-txt-12 {
+  font-size: 12px;
+}
+.hlp-txt-14 {
+  font-size: 14px;
+}
+.hlp-txt-16 {
+  font-size: 16px;
+}
+.hlp-txt-18 {
+  font-size: 18px;
+}
+.hlp-txt-20 {
+  font-size: 20px;
+}
+
+/* Font Weights */
+
+.light-weight {
+  font-weight: 300;
+}
+.medium-weight {
+  font-weight: 500;
+}
+.heavy-weight {
+  font-weight: 700;
+}
