@@ -1,0 +1,21 @@
+/*List Styling*/
+
+.ol {
+  $listname: (lower-roman, upper-roman, lower-alpha, upper-alpha, lower-greek);
+
+  @each $name in $listname {
+    &--#{$name} {
+      list-style-type: #{$name};
+    }
+  }
+}
+
+.ul {
+  $listname: ("disc", "square", "circle");
+
+  @each $name in $listname {
+    &--#{$name} {
+      list-style-type: #{$name};
+    }
+  }
+}
