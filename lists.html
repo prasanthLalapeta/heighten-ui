@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Style Guide - Colors</title>
+    <title>Style Guide - Lists</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -15,54 +15,103 @@
   <body>
     <div class="container-1032">
       <div class="mb-32">
-        <h1 class="mb-8">Colour Palette</h1>
+        <h1 class="mb-8">List</h1>
         <p class="mb-8">
-          Convey meaning through color with a handful of color utility classes.
+          unordered and ordered list styling 
         </p>
       </div>
 
       <!-- Background colors -->
       <div class="mb-32">
-        <h2 class="mb-24">1. Background colors</h2>
-        <div class="dark-grey-clr-bg pd-40 mb-8">
-          <p class="text-16 white-clr">hsl(202, 57%, 15%) - Dark Grey Color</p>
+        <h2 class="mb-24">1. Ordered List</h2>
+        <div class="border pd-40 mb-8">
+          <h5>Lower Roman</h5>
+          <ol class="ol--lower-roman">
+            <li>Chocolate</li>
+            <li>Mango</li>
+            <li>Grapes</li>
+          </ol>
         </div>
-        <div class="grey-clr-bg pd-40 mb-8">
-          <p class="text-16 white-clr">hsl(201, 23%, 34%) - Grey Color</p>
+        <div class="border pd-40 mb-8">
+          <h5>Upper Roman</h5>
+          <ol class="ol--upper-roman">
+            <li>Chocolate</li>
+            <li>Mango</li>
+            <li>Grapes</li>
+          </ol>
         </div>
-        <div class="light-grey-clr-bg pd-40 mb-8">
-          <p class="text-16 white-clr">hsl(203, 15%, 47%) - Light Grey Color</p>
+        <div class="border pd-40 mb-8">
+          <h5>Lower Alpha</h5>
+          <ol class="ol--lower-alpha">
+            <li>Chocolate</li>
+            <li>Mango</li>
+            <li>Grapes</li>
+          </ol>
+        </div>
+        <div class="border pd-40 mb-8">
+          <h5>Upper Alpha</h5>
+          <ol class="ol--upper-alpha">
+            <li>Chocolate</li>
+            <li>Mango</li>
+            <li>Grapes</li>
+          </ol>
+        </div>
+        <div class="border pd-40 mb-8">
+          <h5>Lower Greek</h5>
+          <ol class="ol--lower-greek">
+            <li>Chocolate</li>
+            <li>Mango</li>
+            <li>Grapes</li>
+          </ol>
         </div>
       </div>
       <figure class="mb-32">
         <pre class="mb-32">
 					<code class="language-html">
-						&lt;div class=&quot;dark-grey-clr-bg&quot;&gt; div. Dark Grey Color Background &lt;/div&gt;
-						&lt;div class=&quot;grey-clr-bg&quot;&gt; div. Grey Color Background &lt;/div&gt;
-						&lt;div class=&quot;light-grey-clr-bg&quot;&gt; div. Light Grey Color Background &lt;/div&gt;
+                        &lt;ol class=&quot;ol--lower-roman&quot;&gt; &lt;li&gt; Chocolate &lt;/li&gt;&lt;li&gt; Mango &lt;/li&gt;&lt;li&gt; Grapes &lt;/li&gt;&lt;/ol&gt;
+                        &lt;ol class=&quot;ol--upper-roman&quot;&gt; &lt;li&gt; Chocolate &lt;/li&gt;&lt;li&gt; Mango &lt;/li&gt;&lt;li&gt; Grapes &lt;/li&gt;&lt;/ol&gt;
+                        &lt;ol class=&quot;ol--lower-alpha&quot;&gt; &lt;li&gt; Chocolate &lt;/li&gt;&lt;li&gt; Mango &lt;/li&gt;&lt;li&gt; Grapes &lt;/li&gt;&lt;/ol&gt;
+                        &lt;ol class=&quot;ol--upper-alpha&quot;&gt; &lt;li&gt; Chocolate &lt;/li&gt;&lt;li&gt; Mango &lt;/li&gt;&lt;li&gt; Grapes &lt;/li&gt;&lt;/ol&gt;
+                        &lt;ol class=&quot;ol--lower-greek&quot;&gt; &lt;li&gt; Chocolate &lt;/li&gt;&lt;li&gt; Mango &lt;/li&gt;&lt;li&gt; Grapes &lt;/li&gt;&lt;/ol&gt;
+						
 					</code>
 				</pre>
       </figure>
 
       <!-- Text colors -->
       <div class="mb-32">
-        <h2 class="mb-24">2. Text colors</h2>
-        <p class="text-18 dark-grey-clr-txt mb-8">
-          p. Here’s an dark grey color text example.
-        </p>
-        <p class="text-18 grey-clr-txt mb-8">
-          p. Here’s an grey color text example.
-        </p>
-        <p class="text-18 light-grey-clr-txt mb-8">
-          p. Here’s an light grey color text example.
-        </p>
-      </div>
+        <h2 class="mb-24">2. Unordered List</h2>
+        <div class="border-medium pd-40 mb-8">
+            <h5>Disc</h5>
+            <ul class="ul--disc">
+                    <li>Chocolate</li>
+                    <li>Mango</li>
+                    <li>Grapes</li>
+                  </ul>
+        </div>   
+        
+        <div class="border-medium pd-40 mb-8">
+                <h5>Square</h5>
+                <ul class="ul--square">
+                        <li>Chocolate</li>
+                        <li>Mango</li>
+                        <li>Grapes</li>
+                      </ul>
+            </div> 
+            <div class="border-medium pd-40 mb-8">
+                    <h5>Circle</h5>
+                    <ul class="ul--circle">
+                            <li>Chocolate</li>
+                            <li>Mango</li>
+                            <li>Grapes</li>
+                          </ul>
+                </div> 
       <figure class="mb-32">
         <pre class="mb-32">
 					<code class="language-html">
-						&lt;p class=&quot;dark-grey-clr-txt&quot;&gt; p. Dark grey color text &lt;/p&gt;
-						&lt;p class=&quot;grey-clr-txt&quot;&gt; p. Grey color text &lt;/p&gt;
-						&lt;p class=&quot;light-grey-clr-txt&quot;&gt; p. Light grey color text &lt;/p&gt;
+                            &lt;ol class=&quot;ul--disc&quot;&gt; &lt;li&gt; Chocolate &lt;/li&gt;&lt;li&gt; Mango &lt;/li&gt;&lt;li&gt; Grapes &lt;/li&gt;&lt;/ol&gt;
+                            &lt;ol class=&quot;ul--square&quot;&gt; &lt;li&gt; Chocolate &lt;/li&gt;&lt;li&gt; Mango &lt;/li&gt;&lt;li&gt; Grapes &lt;/li&gt;&lt;/ol&gt;
+                            &lt;ol class=&quot;ul--circle&quot;&gt; &lt;li&gt; Chocolate &lt;/li&gt;&lt;li&gt; Mango &lt;/li&gt;&lt;li&gt; Grapes &lt;/li&gt;&lt;/ol&gt;
 					</code>
 				</pre>
       </figure>
